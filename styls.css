@@ -1,0 +1,161 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header, footer, section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #34495e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.header-logo span {
+    color: #e74c3c;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: #e74c3c;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1500x600') center/cover no-repeat;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero-btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Services Section */
+.services {
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.service-card i {
+    font-size: 2rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #7f8c8d;
+}
+
+/* Blog Section */
+.blog {
+    padding: 40px 20px;
+}
+
+.blog-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog-post {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post h3 {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.blog-post p {
+    padding: 0 15px 15px;
+    color: #7f8c8d;
+}
+
+.blog-post a {
+    display: block;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.blog-post a:hover {
+    background-color: #c
